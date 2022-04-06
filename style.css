@@ -1,7 +1,5 @@
 body {
     background-color: rgb(0, 0, 0);
-    overflow-x:hidden
-
 }
 
 * {
@@ -19,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-
+    width: 100%;
 }
 
 .header-logo {
@@ -51,28 +49,32 @@ body {
     background-color: dodgerblue;
 }
 
-
-
 .section-one {
     background-color: white;
     padding: 40px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);  
 }
 
 
 .section-one img {
-    margin-left: 300px;
-    margin-right: 50px;
+    margin-right: 60px;
+    margin-left: 50px;
     border-radius: 15px;
-    width: 35%;
+    width: 450px;
+    min-width: 450px;  
 }
 
 .section-one span {
-    min-width: 35%;
-    margin-right: 300px;
+    min-width: 450px;
+    max-width: 100px;
     text-align: left;
+}
+
+.section-one-itens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .section-two {
@@ -90,18 +92,20 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     margin-right: 20px;
-    width: 40%;
+    width: 500px;
+    align-items: center;
 }
 
 .container {
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
 }
 
 .chield {
     background-color: rgb(255, 255, 255);
     padding: 30px;
-    width: 30%;
+    width: 400px;
     border-radius: 40px;
     color: black;
     text-align: center;
@@ -111,8 +115,10 @@ body {
 
 .footer-main {
     background-color: rgb(0, 0, 0);
-    padding: 80px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
