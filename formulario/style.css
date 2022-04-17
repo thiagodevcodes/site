@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #37d5a5, #0168ff);
 }
 
 .header-main {
@@ -46,7 +46,6 @@ body {
 }
 
 .form {
-    background-color: rgb(255, 255, 255);
     border-radius: 6px;
     padding: 8px;
     left: 50%;

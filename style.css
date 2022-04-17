@@ -13,6 +13,7 @@ body {
 
 .header-main {
     display: flex;
+    position: fixed;
     justify-content: space-around;
     align-items: center;
     background-color: black;
@@ -46,11 +47,11 @@ body {
 }
 
 .nav-menu-item:hover {
-    background-color: dodgerblue;
+    background-color: #0168ff;
 }
 
 .section-one  {
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,#37d5a5, #0168ff);
     padding: 180px 0 180px 0;
     text-align: center;
 }
@@ -63,17 +64,17 @@ body {
 }
 
 .section-one-button {
-    font-size: 20px;
-    padding: 10px 30px 10px 30px;
-    color: black;
+    font-size: 15px;
+    padding: 15px 40px 15px 40px;
+    color: rgb(255, 255, 255);
     text-shadow: 0px 0px 4px rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0);
+    background-color: black;
     cursor: pointer;
-    border: 3px solid black;
+    border-radius: 10px;
 }
 
 .section-one-button:hover {
-    background-color: dodgerblue;
+    background-color: #0168ff;
 }
 
 .section-one-img {
@@ -106,7 +107,7 @@ body {
 }
 
 .section-three {
-    background-color: white;
+    background-image: linear-gradient(to right, #37d5a5, #0168ff);
     padding: 40px;
     text-align: center;
 }
@@ -115,9 +116,10 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     margin-right: 20px;
-    width: 410px;
-    height: 220px;
+    width: 40%;
+    min-width: 400px;
 }
+
 
 .footer-main {
     background-color: rgb(0, 0, 0);
