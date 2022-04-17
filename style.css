@@ -13,7 +13,7 @@ body {
 
 .header-main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
     width: 100%;
@@ -49,32 +49,37 @@ body {
     background-color: dodgerblue;
 }
 
-.section-one {
-    background-color: white;
-    padding: 40px;
+.section-one  {
+    background-color: rgb(255, 255, 255);
+    padding: 180px 0 180px 0;
     text-align: center;
-    background-color: rgb(255, 255, 255);  
-}
-
-.section-one-img {
-    margin-right: 30px;
-    margin-left: 30px;
-    border-radius: 15px;
-    width: 450px;
-    min-width: 450px;  
-    margin-bottom: 30px;
 }
 
 .section-one-text {
-    min-width: 450px;
-    max-width: 100px;
-    text-align: left;
+    font-size: 50px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+    margin-bottom: 10px;
 }
 
-.section-one-itens {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.section-one-button {
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    color: black;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.section-one-button:hover {
+    background-color: dodgerblue;
+}
+
+.section-one-img {
+    width: 100%;
+    position: relative;
+    display: inline-block;
 }
 
 .section-two {
@@ -90,14 +95,14 @@ body {
 }
 
 .section-two-chield {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     padding: 30px;
     width: 400px;
     border-radius: 40px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 50px;
-
+    border: 2px solid white;
 }
 
 .section-three {
@@ -110,7 +115,8 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     margin-right: 20px;
-    width: 500px;
+    width: 410px;
+    height: 220px;
 }
 
 .footer-main {
