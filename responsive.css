@@ -1,15 +1,26 @@
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 715px) {
     .nav-menu {
         display: none;
-
     }
 
     .header-main {
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 13px;
     }
 
-    .button-traco {
+    .button-nav {
         display: block;
+    }
+
+    .section-one-text {
+        width: 400px;
+    }
+
+    .section-one-img {
+        margin-top: 30px;
+    }
+
+    .section-one-button {
+        left: 28%;
     }
 }
