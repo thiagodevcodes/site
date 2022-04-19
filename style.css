@@ -132,4 +132,15 @@ body {
     width: 100%;
 }
 
+.footer-img {
+    width: 28px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+.footer-img:hover {
+    width: 32px;
+    transition: 0.4s;
+}
+
 
