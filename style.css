@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(0, 0, 0);
 }
@@ -7,7 +8,7 @@ body {
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
 }
 
@@ -43,10 +44,19 @@ body {
 .nav-menu-item {
     color: white;
     padding: 20px;
+    position: relative;
 }
 
 .nav-menu-item:hover {
     background-color: #0168ff;
+}
+
+.button-traco {
+    display: none;
+    background-color: white;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 20px;
 }
 
 .section-one  {
@@ -95,7 +105,7 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 50px;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
 }
 
 .section-three {
@@ -121,3 +131,5 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
 }
+
+

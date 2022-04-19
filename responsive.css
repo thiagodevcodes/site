@@ -1,0 +1,15 @@
+@media screen and (max-width: 650px) {
+    .nav-menu {
+        display: none;
+
+    }
+
+    .header-main {
+        justify-content: space-around;
+        padding: 13px;
+    }
+
+    .button-traco {
+        display: block;
+    }
+}
