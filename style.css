@@ -13,6 +13,18 @@ body {
     text-decoration: none;
 }
 
+#menu-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+#menu-list-responsive {
+    display: none;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
 .header-main {
     display: flex;
     position: fixed;
@@ -31,7 +43,7 @@ body {
 }
 
 .nav-menu-item:hover {
-    background-color: #196898;
+    background-color: #72b5e8;;
     height: 1px;
 
 }
@@ -42,6 +54,10 @@ body {
     padding: 1px;
     margin-bottom: 5px;
     width: 20px;
+}
+
+#button-navbar {
+    cursor: pointer;
 }
 
 .logo {
