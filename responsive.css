@@ -46,4 +46,28 @@
     #menu-list {
         display: none;
     }
+
+    .section-one-img {
+        width: 350px;
+    }
+    
+    .section-one-tittle {
+        font-size: 40px;
+    }
+    
+    .section-one-text {
+        width: 350px;
+    }
+
+    .section-one-button {
+         left: 24%;
+    }
+
+    .section-three-videos {
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 40%;
+        min-width: 340px;
+    }
 }
