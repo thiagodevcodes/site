@@ -69,5 +69,14 @@
         margin-right: 20px;
         width: 40%;
         min-width: 340px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .section-three-videos {
+        width: 40%;
+        min-width: 250px;
+        height: 150px;
     }
 }
