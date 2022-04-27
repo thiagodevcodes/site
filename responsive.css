@@ -95,10 +95,3 @@
         height: 15vw;
     }
 }
-
-@media screen and (max-width: 1630px) {
-    .section-two-chield {
-        width: 500px;
-    }
-
-}
