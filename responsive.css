@@ -1,4 +1,4 @@
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 816px) {
     .header-main {
         justify-content: space-between;
         padding: 13px;
@@ -69,14 +69,36 @@
         margin-right: 20px;
         width: 50vw;
         min-width: 340px;
-        height: 200px;
+        height: 192px;
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 440px) {
     .section-three-videos {
         width: 100%;
         min-width: 250px;
-        height: 150px;
+        height: 43vw;
     }
+}
+
+@media screen and (min-width: 1630px) {
+    .section-two-chield {
+        width: 500px;
+    }
+
+    .section-three-videos {
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 27vw;
+        min-width: 400px;
+        height: 15vw;
+    }
+}
+
+@media screen and (max-width: 1630px) {
+    .section-two-chield {
+        width: 500px;
+    }
+
 }
