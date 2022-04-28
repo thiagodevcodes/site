@@ -1,5 +1,8 @@
+@media screen and (min-width: 817px) {
+
+}
 @media screen and (max-width: 816px) {
-    #menu-list-responsive {
+    #menu-list-mobile {
         display: flex;
         flex-direction: column;
         position: fixed;
@@ -16,14 +19,13 @@
         display: none;
     }
 
+    #button-img {
+        display: block;
+    }
+
     .header-main {
         justify-content: space-between;
         padding: 13px;
-    }
-
-    .button-nav {
-        display: block;
-
     }
 
     .section-one-text {
