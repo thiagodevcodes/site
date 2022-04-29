@@ -118,7 +118,6 @@ body {
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-
 }
 
 .section-two-chield {
@@ -128,7 +127,7 @@ body {
     border-radius: 40px;
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     border: 2px solid #72b5e8;
 }
 
@@ -145,6 +144,48 @@ body {
     width: 15vw;
     min-width: 400px;
     height: 225px;
+}
+
+.section-four {
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+}
+
+.section-four-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.section-four-chield {
+    text-align: center;
+    padding: 20px;
+    width: 280px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}   
+
+.section-four-tittle {
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.section-four-img {
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.section-four-img:hover {
+    width: 100px;
+}
+
+.section-five {
+    background-color: white;
+    padding: 20px;
 }
 
 .footer-main {
