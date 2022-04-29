@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    background-color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
+    z-index: 10;
 }
 
 * {
@@ -17,62 +17,51 @@ body {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+
 }
 
 #menu-list-mobile{
     display: none;
+    position: fixed;
     list-style-type: none;
     justify-content: space-around;
+    z-index: -1;
 }
 
-#button-navbar {
+#button-mobile {
     cursor: pointer;
+    display: none;
+    padding: 1px;
+    width: 30px;
+    background-color: black;
 }
+
 
 .header-main {
     display: flex;
     position: fixed;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
     width: 100%;
     height: 59px;
     z-index: 1;
+    background-color: rgb(0, 0, 0);
 }
 
 .nav-menu-item {
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
 }
 
 .nav-menu-item:hover {
     background-color: #72b5e8;;
     height: 1px;
-
-}
-
-#button-img {
-    display: none;
-    padding: 1px;
-    margin-bottom: 5px;
-    width: 30px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-.logo-img {
-    width: 28px;
-    margin-right: 7px;
-    margin-left: 7px;
 }
 
 .logo-tittle {
     font-size: 20pt;
     font-family: 'Lobster', cursive;
+    color: white;
 }
 
 .section-one  {
@@ -80,8 +69,8 @@ body {
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 50px;
     flex-wrap: wrap;
 }
 
@@ -121,8 +110,9 @@ body {
 
 .section-two {
     color: rgb(255, 255, 255);
+    background-color: black;
     border-radius: 10px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .section-two-container {

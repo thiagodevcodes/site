@@ -1,33 +1,32 @@
 let menuMobile= document.getElementById("menu-list-mobile");
 let menuNormal = document.getElementById("menu-list");
-let buttonNav = document.getElementById("button-navbar");
-let buttonImg = document.getElementById("button-img")
-
+let buttonMobile = document.getElementById("button-mobile");
 
 let stats = false; 
 let menu = true;
 
-function AbrirJanela() {
+function openMenu() {
     if(stats == false ) {
         menuMobile.style.visibility = "visible";
+        menuMobile.style.top = "59px"
         stats = true;
     } else {
         menuMobile.style.visibility = "hidden";
+        menuMobile.style.top = "-50%"
         stats = false;
     } 
 }   
 
 function updateImg() {
     if(menuMobile.style.visibility == "visible") {
-        buttonImg.src = "/_img/excluir.png"
+        buttonMobile.src = "./_img/excluir.png"
     } else {
-        buttonImg.src = "/_img/cardapio.png"
+        buttonMobile.src = "./_img/cardapio.png"
     }
 }
 
-
-buttonNav.addEventListener("click", AbrirJanela)
-buttonNav.addEventListener("click", updateImg)
+buttonMobile.addEventListener("click", openMenu)
+buttonMobile.addEventListener("click", updateImg)
 
 
 
