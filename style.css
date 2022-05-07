@@ -58,13 +58,16 @@ body {
     height: 1px;
 }
 
+.logo {
+    background-color: black;
+    padding: 12.5px;
+}
+
 .logo-tittle {
     font-size: 20pt;
     font-family: 'Lobster', cursive;
     color: white;
-    width: 100%;
-    background-color: black;
-    padding: 12.5px;
+
 }
 
 .section-one  {
