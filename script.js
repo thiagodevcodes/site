@@ -19,9 +19,9 @@ function openMenu() {
 
 function updateImg() {
     if(menuMobile.style.visibility == "visible") {
-        buttonMobile.src = "./_img/fechar.png"
+        buttonMobile.src = "./img/fechar.png"
     } else {
-        buttonMobile.src = "./_img/abrir.png"
+        buttonMobile.src = "./img/abrir.png"
     }
 }
 
